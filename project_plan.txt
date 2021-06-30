@@ -1,0 +1,5 @@
+The features will include 4 different menu options, all put into a navbar, your profile will be on the left along with the name Delve and the menu options (Books, Chats,Settings) will be on the left.
+For the searching for books, I will have a big JSON array with all the books that are in stock, and they will have multiple properties such as author, release date, genre, and pages. When a filter is selected, it will run array.includes([filter selected]) ad will only show the options that have the filter as one of their property values in the JSON.
+Profile will just be an account where you can edit username, and UI color and/or theme. 
+Chats will be a place where you can talk to one and/or mulltiple people who are interested in the same things/books as you.
+The books will be displayed after a function call triggered by the search submit and will be displayed in a one-columns grid with one book in each row. In HTML/CSS this would be display:block. 
